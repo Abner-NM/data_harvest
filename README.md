@@ -12,7 +12,7 @@ The following Python libraries are required to run the program:
 
 ## Usage
 1. Install the required libraries by running pip install -r requirements.txt in the terminal.
-2. Open the amazon_scraper.py file in your Python editor of choice
+2. Open the data_harvest.py file in your Python editor of choice
 3. Replace the url variable with the Amazon product page link you want to scrape.
 4. Run the program.
 5. Once the program has finished running, the product information will be displayed on the terminal console.
