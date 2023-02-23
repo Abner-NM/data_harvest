@@ -5,7 +5,6 @@ import requests
 import pandas as pd
 import numpy as np
 import os
-from dotenv import load_dotenv
 
 # !pip install python-dotenv
 
