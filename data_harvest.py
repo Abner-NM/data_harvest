@@ -68,9 +68,8 @@ if __name__ == '__main__':
 	url = "https://www.amazon.com/s?k=laptop&crid=3S0WZLZ9Y84JK&sprefix=laptop%2Caps%2C592&ref=nb_sb_noss_1"
 	
 	
-	# read my credentials using dotenv
-	load_dotenv()
-	user_agent = os.getenv("USER_AGENT")
+	# read my credentials
+	user_agent = os.environ['USER_AGENT']
 	
 	# my header
 	header = ({'user-agent': user_agent, 'Accept-Language': 'en-US, em;q=0.5'})
